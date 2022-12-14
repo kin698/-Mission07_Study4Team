@@ -22,7 +22,7 @@
   
   .body .faq{
     
-    width: 340px;
+    width: 87%;
     height: 100%;
     background-color: #fff;
     padding-top: 50px;
@@ -33,7 +33,7 @@
   }
 
   .question{
-    margin-left: 8%;
+    margin-left: 10%;
   }
   .faq p{
     font-size: 30px;
@@ -42,7 +42,7 @@
   }
 
   .faq > ul{
-    width: 282px;
+    width: 80%;
     text-align: left;
     background: #fff;
     border-radius: 3px;
@@ -61,11 +61,10 @@
     padding-left: 20px;
     padding-top: 10px;  
     display: block;
-    width: 280px;
+    width: 100%;
     height: 50px;
     background-color: #fff;
     font-size: 15px;
-    /* line-height: 20px; */
     transition: all 0.3s;
   }
 
@@ -75,7 +74,7 @@
   }
   .faq > ul > .a{
     display: none;
-    width: 280px;
+    width: 100%;
     height: auto;
     cursor: auto;
     background-color: rgb(248, 248, 248);
@@ -113,7 +112,7 @@
   }
   
   .body .faq{
-    width: 500px;
+    width: 60%;
     height: 100%;
     background-color: #fff;
     padding-top: 50px;
@@ -124,7 +123,7 @@
   }
   
   .question{
-    margin-left: 5%;  /*faq클래스 내의 왼쪽 여백 값*/
+    margin-left: 10%;  /*faq클래스 내의 왼쪽 여백 값*/
   }
 
   .faq p{
@@ -134,7 +133,7 @@
   }
   
   .faq > ul{
-    width: 452px; /*border값 2px 포함된 값*/
+    width: 78%; /*border값 2px 포함된 값*/
     text-align: left;
     background: #fff;
     border-radius: 3px;
@@ -150,12 +149,12 @@
   
   .faq > ul > .q{
     padding-left: 20px;
+    padding-top: 10px;
     display: block;
-    width: 450px;
+    width: 100%;
     height: 50px;
     background-color: #fff;
     font-size: 15px;
-    line-height: 20px;
     transition: all 0.3s; /*q에 hover했을 시 0.3초간의 변화 적용*/
   }
   
@@ -165,7 +164,7 @@
   }
   .faq > ul > .a{
     display: none;
-    width: 780px;
+    width: 100%;
     height: auto;
     cursor: auto;
     background-color: rgb(248, 248, 248);
@@ -200,7 +199,7 @@
   }
   
   .body .faq{
-    width: 1200px;
+    width: 60%;
     height: 100%;
     background-color: #fff;
     padding-top: 50px;
@@ -222,7 +221,7 @@
   }
   
   .faq > ul{
-    width: 782px;
+    width: 68%;
     text-align: left;
     background: #fff;
     border-radius: 3px;
@@ -241,7 +240,7 @@
     padding-left: 20px;
     padding-top: 10px;  
     display: block;
-    width: 780px;
+    width: 100%;
     height: 50px;
     background-color: #fff;
     font-size: 20px; 
@@ -255,7 +254,7 @@
   }
   .faq > ul > .a{
     display: none;
-    width: 780px;
+    width: 100%;
     height: auto;
     cursor: auto;
     background-color: rgb(248, 248, 248);
@@ -277,11 +276,6 @@
   
 }
 
-
-
-
-
-
 /* ↓-------------bootstrap 수정--------------------↓ */
 .navbar{
   margin-bottom: 0px !important;  /*메뉴바의 바닥 바깥여백*/
@@ -290,7 +284,7 @@
     font-weight: bold !important;
 }
 .bg-light{
-    background-color: #F6F5F8 !important;
+  background-color: #F6F5F8 !important;
 }
 .dropdown-menu{
   
@@ -301,19 +295,19 @@
 }
 
 .dropdown-menu{
-    background-color: #F6F5F8 !important;
-    font-size: 16px !important;
-    opacity: 0.9;  /*드롭다운 메뉴바의 투명도*/
-    border:1px solid #000;
+  background-color: #F6F5F8 !important;
+  font-size: 16px !important;
+  opacity: 0.9;  /*드롭다운 메뉴바의 투명도*/
+  border:1px solid #000;
 }
 
 .dropdown-item:hover{
-    background-color:  #babdc7 !important;
-    font-weight: bold !important;
+  background-color:  #babdc7 !important;
+  font-weight: bold !important;
 }
 
 .nav-link:hover{
-    font-weight: bold !important;
+  font-weight: bold !important;
 }
 
 .img-responsive{
@@ -350,7 +344,6 @@ table{
   box-sizing: border-box;
 }
 
-
 svg{
   width: 20px;  
   right: 30px;  /*오른쪽으로부터의 거리*/
@@ -367,8 +360,6 @@ footer{
   text-align: center;
   font-weight: bold;
 }
-
-
 
 .headFont{
   margin-top: 0px;
